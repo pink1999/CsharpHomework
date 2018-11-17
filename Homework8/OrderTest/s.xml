@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfOrder xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Order>
+    <Details>
+      <OrderDetails>
+        <Id>1</Id>
+        <Goods>
+          <Price>2.5</Price>
+          <Name>apple</Name>
+        </Goods>
+        <Quantity>10000</Quantity>
+      </OrderDetails>
+      <OrderDetails>
+        <Id>2</Id>
+        <Goods>
+          <Price>3.5</Price>
+          <Name>milk</Name>
+        </Goods>
+        <Quantity>500</Quantity>
+      </OrderDetails>
+    </Details>
+    <Id>20180422</Id>
+    <Customer>
+      <Name>Lily</Name>
+      <Telephone>16788980981</Telephone>
+    </Customer>
+  </Order>
+</ArrayOfOrder>
